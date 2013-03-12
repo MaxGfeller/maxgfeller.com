@@ -1,4 +1,3 @@
-maxgfeller.com
-==============
+# Personal blog powered by Octopress
 
-http://www.maxgfeller.com
+http://maxgfeller.com
