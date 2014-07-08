@@ -35,7 +35,7 @@ To enable the server to listen for connections from outside simply add the follo
 To have an additional command for accessing your private repository (rather than publish all new modules to it) simply create an alias:
 
 ```
-alias pnpm="npm --repository=http://yourhost:4873 --always-auth=true --ca=null"
+alias pnpm="npm --registry=http://yourhost:4873 --always-auth=true --ca=null"
 ```
 
 Now you can publish a module to your own server using `pnpm publish` and to `registry.npmjs.org` using `npm publish`.
