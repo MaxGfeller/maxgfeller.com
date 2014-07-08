@@ -8,7 +8,7 @@ categories:
 
 Having a private repository for your modules is a fair use case. While working on your own projects that should not (yet) be open source and available for everyone you still should not have to miss the comfort of having a big amount of small packages to organize your large codebase.
 
-npm itself offers the possibility to define different repositories to work with via the `--repository` flag. This however requires you to have your own CouchDB instance correctly set up, which [is possible](http://clock.co.uk/tech-blogs/how-to-create-a-private-npmjs-repository) but too complicated in my opinion.
+npm itself offers the possibility to define different repositories to work with via the `--registry` flag. This however requires you to have your own CouchDB instance correctly set up, which [is possible](http://clock.co.uk/tech-blogs/how-to-create-a-private-npmjs-repository) but too complicated in my opinion.
 
 ## sinopia
 
